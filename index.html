@@ -97,44 +97,50 @@
 			<!-- HEADER : end -->
 
 	<!-- SEARCH : begin-->		
-	<div id="wrapper" style="margin-top:  100px">
+	<div id="wrapper" style="margin-top:  100px;width: 100% !important;" class="c-button m-type-2 m-color-3">
 		<div id="core">
 
 			<!-- PAGE CONTENT : begin -->
 				<div id="page-content" >
-					<form class="default-form" >
+					<form class="default-form" style="margin: 30px;" >
 									<div class="row align-items-center">
 
 									     <div class="col">
 									    		<!-- TEXT : begin -->
-												<div class="form-field">
-													<label for="select-1">Selectionnez votre catégorie</label>
-													<select id="select-1" class="selectbox-input">
-														<option selected>Tous les catégories</option>
-														  <option value="1">Plomberie</option>
-											   			  <option value="2">Peinture</option>
-											  			  <option value="3">Chauffage</option>
-													</select>
-												</div>
+												  <label for="validationCustom03"><h3 style="color: white;">Category:</h3></label>
+											      <select class="form-control form-control-lg" name="category" id="validationCustom03" onchange="ChangecatList()" required>
+											        <option value="">Choose... </option>
+											        <option value="Classroom Instruction and Assessment">Classroom Instruction and Assessment</option>
+											        <option value="Curriculum Development and Alignment">Curriculum Development and Alignment</option>
+											        <option value="District Committee">District Committee</option>
+											        <option value="Meeting">Meeting</option>
+											        <option value="Other Category">Other Category</option>
+											        <option value="Professional Conference">Professional Conference</option>
+											        <option value="Professional Workshop / Training">Professional Workshop / Training</option>
+											        <option value="Pupil Services">Pupil Services</option>
+											      </select>
 									    </div>
 
 									       <div class="col">
 									    		<!-- TEXT : begin -->
-												<div class="form-field">
-													<label for="select-1">Localisation</label>
-													<select id="select-1" class="selectbox-input">
-														<option selected>Fès</option>
-														  <option value="1">Fès, narjiss</option>
-											   			  <option value="2">Fès, route ain chkef</option>
-											  			  <option value="3">Agadir, telila</option>
-													</select>
-												</div>
+													<label for="validationCustom03"><h3 style="color: white;">City:</h3></label>
+												      <select class="form-control form-control-lg" name="category" id="validationCustom03" onchange="ChangecatList()" required>
+												        <option value="">Choose... </option>
+												        <option value="Classroom Instruction and Assessment">Classroom Instruction and Assessment</option>
+												        <option value="Curriculum Development and Alignment">Curriculum Development and Alignment</option>
+												        <option value="District Committee">District Committee</option>
+												        <option value="Meeting">Meeting</option>
+												        <option value="Other Category">Other Category</option>
+												        <option value="Professional Conference">Professional Conference</option>
+												        <option value="Professional Workshop / Training">Professional Workshop / Training</option>
+												        <option value="Pupil Services">Pupil Services</option>
+												      </select>
 									    </div>
 									  <div class="col-2">
 											<!-- DEFAULT BUTTON / BIG : begin -->
-											<a href="#" class="c-button m-type-2 m-color-2 m-size-large">Large Button</a>
+											<br><br>
+												<a href="#" class="c-button m-type-2 m-color-2 m-size-large">Chercher</a>
 											<!-- DEFAULT BUTTON / BIG : end -->
-
 										</div>
 								  	</div>
 						    </form>
@@ -144,7 +150,7 @@
 	</div>
 <!-- Search end -->
 
-		<div id="wrapper">
+		<div id="wrapper" style="margin-top: -80px">
 
 			<!-- CORE : begin -->
 			<div id="core">
